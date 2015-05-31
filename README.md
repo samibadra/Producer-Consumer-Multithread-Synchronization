@@ -30,4 +30,4 @@ Argument Flags| Description
 ##Lessons Learned
 - The most influential lesson that I learned from this assignment is how to use semaphores to synchronize multiple threads that are performing actions with the same objects.
 - I also learned how to properly implement critical sections (mutex) to avoid corruption when you have multiple threads accessing the same part of memory.
-- This project has also sharpened my Object-Oriented Programming skills immensely, since it required multiple classes, objects, as well as communication between the classes.
+- This project has also sharpened my Object-Oriented Programming skills immensely, since it works with multiple objects, as well as communication between them.
