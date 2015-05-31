@@ -11,7 +11,7 @@ Copyright 2015 Sami Badra. All Rights Reserved
 This project is a simulation of a factory where candy is both produced and consumed from the conveyer belt. The simulation must meet the following specifications:  
   - There are precisely 2 producers, and 2 consumers
   - **The producers:** crunchy frog bites and everlasting escargot suckers. These are the two types of candies produced in this factory (Each candy has its own producer thread)
-  - **The consumers:** Lucy and Ethel. They are workers in the factory, and consume candies by removing them from the belt and into the box for packaging (Each worker has its own consumer thread)
+  - **The consumers:** Lucy and Ethel. They are workers in the factory, and consume candies by removing them from the FRONT of the belt (Each worker has its own consumer thread)
   - Each individual producer/consumer has their own 'delay' which is the time needed (milliseconds) to either produce or consume a candy. (See 'Optional Arguments' below)
   - No more than 10 candies are on the conveyer belt at any given time.
   - No more than 3 frog bites can be on the conveyer belt at any given time.
